@@ -21,10 +21,10 @@ export default function RootLayout({
       <body className={inter.className}>
         <div className="w-full h-full bg-[#1e1e2e]">
           <div className="pt-[8rem]">
-            <div className="fixed top-0 z-50 w-full h-24 justify-center items-center bg-[#1e1e2e]/50 backdrop-blur-sm">
+            <div className="fixed top-0 w-full h-24 justify-center items-center bg-[#1e1e2e]/50 backdrop-filter backdrop-blur-sm">
               <Navbar />
             </div>
-            <div className="md:hidden lg:hidden xl:hidden fixed bottom-0 z-50 w-full h-24 justify-center items-center bg-[#1e1e2e]/50 backdrop-blur-sm">
+            <div className="md:hidden lg:hidden xl:hidden fixed bottom-0 w-full h-24 justify-center items-center bg-[#1e1e2e]/50 backdrop-filter backdrop-blur-sm">
               <BottomNavbar />
             </div>
             <div className="flex justify-center">{children}</div>
