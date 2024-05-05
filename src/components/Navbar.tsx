@@ -9,7 +9,7 @@ import React from "react";
 const Navbar = () => {
   const pathname = usePathname();
   return (
-    <div className="h-24 flex items-center justify-between px-4 sm:px-8 md:px-12 lg:px-20 xl:px-58">
+    <div className="h-15 flex items-center justify-between px-4 sm:px-8 md:px-12 md:h-24 lg:px-20 lg:h-24 xl:px-58 xl:h-24">
       {/* Logo */}
       <div className="w-1/3 md:hidden md:justify-start lg:hidden lg:justify-center xl:justify-center xl:hidden">
         {/* <Link href="/" className="text-sm bg-[#1e1e2e] flex rounded-md">
@@ -21,9 +21,9 @@ const Navbar = () => {
       <div className="w-1/3 flex justify-center md:justify-start lg:justify-center xl:justify-center ">
         <Link
           href="/"
-          className="text-sm bg-[#cdd6f4] flex rounded-md justify-center"
+          className="text-sm bg-[#cdd6f4] flex rounded-md justify-center m-2 md:m-0 lg:m-0 xl:m-0"
         >
-          <span className="flex text-[#cdd6f4] font-bold justify-center items-center bg-[#313244] text-2xl p-2 m-2 rounded-md">
+          <span className="flex text-[#cdd6f4] font-bold justify-center items-center bg-[#313244] text-xl p-2 m-1 rounded-md">
             ISAF
           </span>
         </Link>
